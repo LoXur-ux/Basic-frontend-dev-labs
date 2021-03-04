@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Регистрация</title>
+    </head>
+
+    <body>
+        <table>
+            <tr>
+                <td>
+                    <fieldset name="main">
+                        <p><label for="number">Identification Number:</label><br>
+                        <input type="text" id="number"></p>
+                                
+                        <p><label for="name">Legal Name:</label><br>
+                        <input type="text" id="name" size="101"></p>
+                    
+                        <p><label for="address1">Address 1:</label><br>
+                        <input type="text" id="address1" size="101"></p>
+                        <p><label for="address2">Address 2:</label><br>
+                        <input type="text" id="address2" size="101"></p>
+                        <table border="0">
+                            <tr>
+                                <td>
+                                    <p><label for="city">City:</label><br>
+                                    <input type="text" id="city" size="25"></p>
+                                        </td>
+                                            <td>
+                                                <p><label for="state">State:</label><br>
+                                                <input type="text" id="state" size="25"></p>
+                                            </td>
+                                            <td>
+                                                <p><label for="zip">Zip:</label><br>
+                                                <input type="text" id="zip" size="22"></p>
+                                            </td>
+                                            <td>
+                                                <p>
+                                                    <label for="country">Country:</label><br>
+                                                    <select name="country">
+                                                        <option value=1>United State</option>
+                                                        <option value=2>Russia</option>
+                                                        <option value=3>England</option>
+                                                    </select>
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p><label for="phone">Phone:</label><br>
+                                                <input type="text" id="phone" size="25"></p>
+                                            </td>
+                                            <td colspan="3">
+                                        <p><label for="email">Email:</label><br>
+                                    <input type="email" id="email" size="70"></p>
+                                </td>
+                            </tr>
+                        </table>
+                    
+                        <p align="right">
+                            <input type="button" value="Reset"> <input type="button" value="Submit"> 
+                        </p>
+                    </fieldset>
+                </td>
+            </tr>
+            </table>
+    </body>
+</html>
