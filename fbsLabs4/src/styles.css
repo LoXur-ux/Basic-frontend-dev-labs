@@ -1,0 +1,67 @@
+.head{
+    margin-top: 53px;
+    margin-left: 97px;
+}
+
+.head-bg{
+    margin-bottom: -768px;
+    width: 1366px;
+    height:768;
+}
+
+.head-top-text{
+    font-family: Galien;
+    font-size: 0px;
+    line-height: 116%;
+    letter-spacing: 0.04em;
+    text-align: left;
+
+    width: 510px;
+}
+
+.head-lower-text{
+    font-family: Gilroy;
+    font-size: 0px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    text-align: left;
+}
+
+.main-text{
+    font-family: sans-serif;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: left;
+}
+
+.block-we-text{
+    font-family: Gilroy;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    text-align: left;
+
+}
+
+.lower-we-text{
+    font-family: Gilroy;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    text-align: left;
+}
+
+.foot-rounded{
+    border-radius: 200px 0px 0px 0px;
+}
+
+.foot-rounded-low{
+    border-radius: 0px 200px 0px 0px;
+}
+
+.tablet-border-1{
+    border-right: 1px solid #ffffff59;
+}
+.tablet-border-2{
+    border-bottom: 1px solid #ffffff59;
+}
